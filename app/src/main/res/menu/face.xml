@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".FaceActivity" >
+    <item android:id="@+id/airport_menuRefresh"
+        android:icon="@drawable/ic_action_refresh"
+        android:title="refresh"
+        android:alphabeticShortcut="r"
+        android:orderInCategory="1"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_fullScreen"
+        android:icon="@drawable/ic_action_full_screen"
+        android:title="fullscreen"
+        android:alphabeticShortcut="r"
+        android:orderInCategory="2"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/about"
+
+        android:title="about"
+        android:alphabeticShortcut="r"
+        android:orderInCategory="3"
+        app:showAsAction="never" />
+
+</menu>
